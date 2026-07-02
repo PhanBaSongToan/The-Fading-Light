@@ -17,7 +17,6 @@ export default function Hero({ assets, links, onNavigate }) {
       <div className="absolute inset-0 bg-red-haze" />
       <div className="absolute inset-x-0 bottom-0 h-32 bg-gradient-to-t from-ash to-transparent" />
       <div className="lantern-glow left-[30%] top-[24%]" />
-      <div className="ghost-silhouette hidden xl:block" />
 
       <div className="relative z-10 mx-auto flex w-full max-w-[1200px] flex-1 items-center px-5 py-8 md:py-14 lg:px-8">
         <motion.div

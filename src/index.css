@@ -272,18 +272,6 @@
     @apply absolute h-24 w-16 animate-pulse-red rounded-full bg-ember/25 blur-2xl;
   }
 
-  .ghost-silhouette {
-    position: absolute;
-    right: 34%;
-    top: 16%;
-    width: 52px;
-    height: 156px;
-    opacity: 0.38;
-    background: linear-gradient(180deg, rgba(236, 59, 35, 0.42), rgba(75, 10, 7, 0.1));
-    filter: blur(1px) drop-shadow(0 0 18px rgba(236, 59, 35, 0.38));
-    clip-path: polygon(45% 0, 63% 13%, 70% 48%, 90% 100%, 12% 100%, 30% 48%, 36% 13%);
-  }
-
   .ember-particle {
     @apply absolute h-1 w-1 animate-ember rounded-full bg-ember;
     box-shadow: 0 0 12px rgba(236, 59, 35, 0.8);
